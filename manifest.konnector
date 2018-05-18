@@ -1,0 +1,72 @@
+{
+  "version": "1.0.0",
+  "name": "CGE-IPX800-V4",
+  "type": "konnector",
+  "language": "node",
+  "icon": "icon.jpg",
+  "slug": "cge-ipx800-v4",
+  "source": "git://github.com/konnectors/cozy-konnector-cge-ipx800-v4.git",
+  "editor": "Cozy",
+  "vendor_link": "http://gce-electronics.com/fr/",
+  "categories": ["other"],
+  "fields": {
+    "url": {
+      "type": "text"
+    },
+    "login": {
+      "type": "text"
+    },
+    "password": {
+      "type": "password"
+    },
+    "advancedFields": {
+      "folderPath": {
+        "advanced": true,
+        "isRequired": false
+      }
+    }
+  },
+  "data_types": [
+    "bill"
+  ],
+  "permissions": {
+    "files": {
+      "type": "io.cozy.files"
+    },
+    "accounts": {
+      "type": "io.cozy.accounts",
+      "verbs": ["GET"]
+    }
+  },
+  "developer": {
+    "name": "Cozy Cloud",
+    "url": "https://cozy.io"
+  },
+  "langs": ["fr", "en"],
+  "locales": {
+    "fr": {
+      "short_description": "Connecteur pour CGE IPX-800 V4",
+      "long_description": "Connecteur pour CGE IPX-800 V4",
+      "permissions": {
+        "files": {
+          "description": "Utilisé pour sauvegarder les relevés XML"
+        },
+        "accounts": {
+          "description": "Utilisé pour obtenir les données du compte"
+        }
+      }
+    },
+    "en": {
+      "short_description": "Connector for CGE IPX-800 V4",
+      "long_description": "Connector for CGE IPX-800 V4",
+      "permissions": {
+        "files": {
+          "description": "Required to save the xml files"
+        },
+        "accounts": {
+          "description": "Required to get the account's data"
+        }
+      }
+    }
+  }
+}
