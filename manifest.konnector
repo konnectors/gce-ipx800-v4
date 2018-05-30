@@ -3,7 +3,7 @@
   "name": "CGE-IPX800-V4",
   "type": "konnector",
   "language": "node",
-  "icon": "icon.jpg",
+  "icon": "icon.png",
   "slug": "cge-ipx800-v4",
   "source": "git://github.com/konnectors/cozy-konnector-cge-ipx800-v4.git",
   "editor": "Cozy",
