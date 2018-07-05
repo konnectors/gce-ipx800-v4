@@ -20,7 +20,7 @@ async function start(fields) {
 
 function getResponse(fields) {
   return new Promise((resolve, reject) => {
-    const url = new URL(fields.url)
+    const url = new URL(fields.loginUrl)
     url.username = fields.login
     url.password = fields.password
     url.pathname = '/user/graph.xml'
