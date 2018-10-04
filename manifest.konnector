@@ -1,11 +1,11 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.8",
   "name": "CGE-IPX800-V4",
   "type": "konnector",
   "language": "node",
   "icon": "icon.png",
   "slug": "cge-ipx800-v4",
-  "source": "git://github.com/konnectors/cozy-konnector-cge-ipx800-v4.git",
+  "source": "git://github.com/konnectors/cge-ipx800-v4.git",
   "editor": "Cozy",
   "vendor_link": "http://gce-electronics.com/fr/",
   "categories": ["other"],
