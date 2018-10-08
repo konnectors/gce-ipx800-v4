@@ -57,7 +57,7 @@
       A ce stade cette application collecte dans votre cloud personnel Cozy, sous forme d'un fichier XML les dernières 24h de mesures analogiques (et leurs formules de traduction) telles qu'elles sont rendues disponnibles par l'IPX dans son fichier graph.xml".
       Il sera, je l'espère rappidement, possible d'afficher, corréler, et même piloter l'IPX directement depuis cette application... n'hésitez pas à contribuer !
 
-      *Configuration :* renseignez le champ __URL D'AUTHENTIFICATION__ avec l'URL accessible depuis internet de votre IPX sous la forme \"__http://url.de.monIPX.perso__" et ajoutez y le port de redirection le cas échéant (e.g. \"__http://url.de.monIPX.perso:12345__\"",
+      *Configuration :* renseignez le champ __URL D'AUTHENTIFICATION__ avec l'URL accessible depuis internet de votre IPX sous la forme \"__http://url.de.monIPX.perso__\" et ajoutez y le port de redirection le cas échéant (e.g. \"__http://url.de.monIPX.perso:12345__\")",
       "permissions": {
         "files": {
           "description": "ce service accède aux fichiers de votre Cozy afin d'y déposer les données collectées sur l'IPX"
