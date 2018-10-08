@@ -41,31 +41,41 @@
   },
   "developer": {
     "name": "Fabien Bassereau",
-    "url": "https://cozy.io"
+    "url": "https://github.com/konnectors/cge-ipx800-v4"
   },
   "langs": ["fr", "en"],
   "locales": {
     "fr": {
-      "short_description": "Connecteur pour CGE IPX-800 V4",
-      "long_description": "Connecteur pour CGE IPX-800 V4",
+      "short_description": "Collecte les données de votre automate",
+      "long_description": "L'automate de domotique et automatisme IPX800 v4, fabriqué par [CGE-electronics](http://gce-electronics.com/fr/carte-relais-ethernet-module-rail-din/994-domotique-ethernet-webserver-ipx800-v4-9780201379624.html), est une carte relais installée chez vous, fonctionnant sans abonnement ou service payant externe.
+      L'IPX800 conserve l'historique de ses états et mesures des dernières 24h, mais pas au-delà. Cette application sauvegarde dans votre Cozy tous les jours les mesures et l'états de l'appareil... Vous pourrez ainsi mieux comprendre et maitriser les variations de vos mesures. Il sera par exemple ainsi possible de les coreller à :
+      - votre présence effective,
+      - la météo,
+      - vos factures d'electricités ou de fiouls, etc...
+      pour mieux comprendre, vous souvenir, mais aussi par exmeple pour optimiser votre consommation ou vos travaux d'étanchéité thermique.
+
+      A ce stade cette application collecte dans votre cloud personnel Cozy, sous forme d'un fichier XML les dernières 24h de mesures analogiques (et leurs formules de traduction) telles qu'elles sont rendues disponnibles par l'IPX dans son fichier graph.xml".
+      Il sera, je l'espère rappidement, possible d'afficher, corréler, et même piloter l'IPX directement depuis cette application... n'hésitez pas à contribuer !
+
+      *Configuration :* renseignez le champ __URL D'AUTHENTIFICATION__ avec l'URL accessible depuis internet de votre IPX sous la forme \"__http://url.de.monIPX.perso__" et ajoutez y le port de redirection le cas échéant (e.g. \"__http://url.de.monIPX.perso:12345__\"",
       "permissions": {
         "files": {
-          "description": "Utilisé pour sauvegarder les relevés XML"
+          "description": "ce service accède aux fichiers de votre Cozy afin d'y déposer les données collectées sur l'IPX"
         },
         "accounts": {
-          "description": "Utilisé pour obtenir les données du compte"
+          "description": "l'URL, le login et le mot de passe pour lui permettre de se connecter à l'IPX"
         }
       }
     },
     "en": {
-      "short_description": "Connector for CGE IPX-800 V4",
-      "long_description": "Connector for CGE IPX-800 V4",
+      "short_description": "Collects data from your Standalone web relay controller",
+      "long_description": "Collects analog data every 24 hours before your IPX forgets...",
       "permissions": {
         "files": {
-          "description": "Required to save the xml files"
+          "description": "this service access to the files of your Cozy to store there the data collected from your IPX"
         },
         "accounts": {
-          "description": "Required to get the account's data"
+          "description": "the URL, the login and password in order to connect to the IPX"
         }
       }
     }
