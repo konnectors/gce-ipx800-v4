@@ -47,8 +47,7 @@
   "locales": {
     "fr": {
       "short_description": "Collecte les données de votre automate",
-      "long_description": "L'automate de domotique et automatisme IPX800 v4, fabriqué par [CGE-electronics](http://gce-electronics.com/fr/carte-relais-ethernet-module-rail-din/994-domotique-ethernet-webserver-ipx800-v4-9780201379624.html), est une carte relais installée chez vous, fonctionnant sans abonnement ou service payant externe.
-      L'IPX800 conserve l'historique de ses états et mesures des dernières 24h, mais pas au-delà. Cette application sauvegarde dans votre Cozy tous les jours les mesures et l'états de l'appareil... Vous pourrez ainsi mieux comprendre et maitriser les variations de vos mesures. Il sera par exemple ainsi possible de les coreller à :
+      "long_description": "L'automate de domotique et automatisme IPX800 v4, fabriqué par [CGE-electronics](http://gce-electronics.com/fr/carte-relais-ethernet-module-rail-din/994-domotique-ethernet-webserver-ipx800-v4-9780201379624.html), est une carte relais installée chez vous, fonctionnant sans abonnement ou service payant externe.\n\nL'IPX800 conserve l'historique de ses états et mesures des dernières 24h, mais pas au-delà. Cette application sauvegarde dans votre Cozy tous les jours les mesures et l'états de l'appareil... Vous pourrez ainsi mieux comprendre et maitriser les variations de vos mesures. Il sera par exemple ainsi possible de les coreller à :
       - votre présence effective,
       - la météo,
       - vos factures d'electricités ou de fiouls, etc...
