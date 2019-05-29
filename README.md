@@ -1,4 +1,4 @@
-[Cozy][cozy] Connector for CGE IPX800 v4
+[Cozy][cozy] Connector for GCE IPX800 v4
 ========================================
 
 What's Cozy?
