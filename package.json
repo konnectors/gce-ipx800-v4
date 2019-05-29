@@ -1,10 +1,10 @@
 {
-  "name": "cozy-konnector-cge-ipx800-v4",
+  "name": "cozy-konnector-gce-ipx800-v4",
   "version": "1.0.10",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/konnectors/cge-ipx800-v4.git"
+    "url": "git+https://github.com/konnectors/gce-ipx800-v4.git"
   },
   "keywords": [],
   "author": "Cozy Cloud",
@@ -29,7 +29,7 @@
     "build": "webpack",
     "precommit": "yarn lint",
     "lint": "eslint --fix .",
-    "deploy": "git-directory-deploy --directory build/ --branch ${DEPLOY_BRANCH:-build} --repo=${DEPLOY_REPOSITORY:-https://$GITHUB_TOKEN@github.com/konnectors/cozy-konnector-cge-ipx800-v4.git}",
+    "deploy": "git-directory-deploy --directory build/ --branch ${DEPLOY_BRANCH:-build} --repo=${DEPLOY_REPOSITORY:-https://$GITHUB_TOKEN@github.com/konnectors/gce-ipx800-v4.git}",
     "cozyPublish": "cozy-app-publish --token $REGISTRY_TOKEN --build-commit $(git rev-parse ${DEPLOY_BRANCH:-build})",
     "travisDeployKey": "./bin/generate_travis_deploy_key"
   },

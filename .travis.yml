@@ -5,7 +5,7 @@ env:
   global:
   - GH_USER_EMAIL="travis@example.org"
   - GH_USER_NAME="cozy-bot"
-  - DEPLOY_REPOSITORY="git@github.com:konnectors/cge-ipx800-v4.git"
+  - DEPLOY_REPOSITORY="git@github.com:konnectors/gce-ipx800-v4.git"
   - secure: MAHqrTasi9E6JipznDwu4k3DYEyBtNbNKfep7Bb40/0dR4w8SpdabQtj+B2gTpvA/W+SFr9JEy2sermXtzKP7PvhDoXSUFji618KUhw1F4Qt6XfvY/G21uPDFoPC3dFzJv2L6jNe8dwvA3swGvOmEoTOitmb/0Y98KbHlNIrBje/Xcjp/POitdeJPcUVsx8iTaRqhZ2KLo3uwLDozuhxqCmjMQB90ui2UbLV2PUEhXUmYey9RrAESujcZpOji5opQltByGnKY24P3ygntIov1kNofj/CYc7zy1VJ1XOKQ301a+HonZynwUdW/lcVhMC3pDiBjRsCq5TBVcl0IwEKU7tNB/C/EsSogDForMLYA1TLEL/rzHPbuaDJ8lh0stf9Ye1dkopr4UQ0gOmbIMAKufijKXx0OUKM2zQ9IgZ69BChE/IVjxShh94drk8aVZWOOVVwWdkPVav3ioao7P+Vq+K8SstVuKD5w4/123JS8HVeFUepr6C1kFIchpsuHlRjXg5tme8L1jhXpGrwr4abdRx7NeFLEiJEk+8bmidyzk/P1xwJq5o+W/+HZLkP8enHYyTGoT5OJFf/DJoCiLgorkBkcQDHOmrtH5xtdQJFV0jG9PWtkTW7kXBEVmF8QbjmmvGIaAijQ5Morm0z8RafMNiImJjl7weGFmC4sDlRWoU=
 cache:
   yarn: true
