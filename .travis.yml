@@ -30,6 +30,8 @@ deploy:
   on:
     tags: true
 before_install:
+- openssl aes-256-cbc -K $encrypted_653ad4abde11_key -iv $encrypted_653ad4abde11_iv
+  -in github_deploy_key.enc -out /tmp/github_deploy_key -d
 - openssl aes-256-cbc -K $encrypted_c62c24208076_key -iv $encrypted_c62c24208076_iv
   -in github_deploy_key.enc -out /tmp/github_deploy_key -d
 - eval "$(ssh-agent -s)"
