@@ -6,7 +6,7 @@ env:
   - GH_USER_EMAIL="travis@example.org"
   - GH_USER_NAME="cozy-bot"
   - DEPLOY_REPOSITORY="git@github.com:konnectors/gce-ipx800-v4.git"
-  - secure: UYboPd+oBWbzZxUFAXZrso9tSkSS3NQY95fyHoIbisP4OIpTenloLVykpz0OIkWMhhvjsiYnNdKuCqdbrjvYw0TfRi8KmlMBUvpjpZC2ChLQ1AXZtfDdZCWgoMxVEtr3iBwKrpQeVFM0+gf2szLK4VGHtRIuW1S9T/lJ5wd3krat9to8jVS4Sn/OkjstIpsvZcupugXWXMVKr63+SHJOKT655ZLM3G/dBMq+jQ/yNirZYAzsFc+dtJbIu2BnJMxLNeUhX32hx29eSvMvvQE6UkMIK0gQUHW4B+gZIBB5sVSGRMq1iXSssLzcFoGkcAe7wQ1cGBmfTe++UzwSQm1VOY+H3xwL8jnnqH3eOXcZfWWZXoDac6C874OWRMRn6riF0TXrhVbg3NZCvxRSlQAnDKEkfU/MEp1DFt3obzb4gVyAfVRqnrWyetzdePeoM+8yQRcsRCX8YooJ3ip4o6tuGC8zzk19JCDVnkzU7qu2Wm2TQgqRbvSxjGp25KeS7jLIyZP649G35iYTrBrJstSwldnItqfnVl5Vw4f/WtfcXoTsU7I5B74Y84PI5sTLCPWAk3hF3z+cMLzJbdVDVINdFjkYPw0XaNViXkT2YdwRKOO/2Mx9biVi2vyjq65nF/gA3ZgAg6V2qbsgpBu/fzdMSrimT6mktY0Vp2eMpheHNo8=
+  - secure: LSBrVxYNcU0cUk2QRTNpYHdKnRclqzJ3CWC7ZNUGfb74SM7g17eOyUVgRhk7nmPCfxdaWMTIEUL25oYSwFxh9tjpEgVTjVCQLlOIQn1XPHScNMSxIuUe6QtCF4IxBwUDV4eAxkDWnqq7uMJgIjSfV16N/ZlmtjjC8Z3IU4ER+e4uq7V5+sv2GDgDWC2uxpu9ffli4yjNoPv2NdAuRiRq+aJiqi2BtwZjqHYJ0fYQ2dQc5mv59kP2bBuKtm8/WBYxik3ySfj2qif+sZFiFlHEFuUaU6SpY821+eJ/iKp+k10zp+MDSxDtjLZiHxy9WS+KAqgi6g9ahTHPPxRR+bzyk3v9sLAj12dq+tGt88n1Upy6HZgLe1mx/gAtcS6OwVWPQNPko0OVRyLjQmqudd+V89DBokocQxKx2TWHB3hU4klZQLNE+1E06tpIXjXO4vUZ5pgmTdfCPZavlsJ0/o34NeQHg0Hvzs37uQ0B4BtyvqzzmXddSxXyHjTj4HAxnlieZVji8em+odKrFDRQhwZlAuIGVoT9+oGj9u4eHLcPXuWgCeuKgZaKUFxh0jSYvo38nYpuS8a30FPSkw60ar55JAoVeZUI8vATpJnyJR0o74NxXvjNU4lbLJqrY/1Crbh1pieEdxPauxZw3aEjlJTxitNr0H2qcVo3jb93ND1GH50=
 cache:
   yarn: true
   directories:
@@ -30,7 +30,7 @@ deploy:
   on:
     tags: true
 before_install:
-- openssl aes-256-cbc -K $encrypted_c62c24208076_key -iv $encrypted_c62c24208076_iv
+- openssl aes-256-cbc -K $encrypted_653ad4abde11_key -iv $encrypted_653ad4abde11_iv
   -in github_deploy_key.enc -out /tmp/github_deploy_key -d
 - eval "$(ssh-agent -s)"
 - chmod 600 /tmp/github_deploy_key
