@@ -1,9 +1,9 @@
 {
   "version": "1.0.10",
-  "name": "GCE-IPX800-V4",
+  "name": "GCE-ipx800-v4",
   "type": "konnector",
   "language": "node",
-  "icon": "icon.png",
+  "icon": "icon.svg",
   "slug": "gce-ipx800-v4",
   "source": "git@github.com:konnectors/gce-ipx800-v4.git",
   "editor": "Cozy",
