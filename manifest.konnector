@@ -1,5 +1,5 @@
 {
-  "version": "1.0.10",
+  "version": "1.1.0",
   "name": "GCE-ipx800-v4",
   "type": "konnector",
   "language": "node",
@@ -8,7 +8,9 @@
   "source": "git@github.com:konnectors/gce-ipx800-v4.git",
   "editor": "Cozy",
   "vendor_link": "http://gce-electronics.com/fr/",
-  "categories": ["other"],
+  "categories": [
+    "other"
+  ],
   "frequency": "daily",
   "fields": {
     "loginUrl": {
@@ -36,14 +38,19 @@
     },
     "accounts": {
       "type": "io.cozy.accounts",
-      "verbs": ["GET"]
+      "verbs": [
+        "GET"
+      ]
     }
   },
   "developer": {
     "name": "Fabien Bassereau",
     "url": "https://github.com/konnectors/gce-ipx800-v4"
   },
-  "langs": ["fr", "en"],
+  "langs": [
+    "fr",
+    "en"
+  ],
   "locales": {
     "fr": {
       "short_description": "Collecte les données de votre automate",
