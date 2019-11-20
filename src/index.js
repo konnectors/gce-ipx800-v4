@@ -11,7 +11,7 @@ module.exports = new BaseKonnector(start)
 
 async function start(fields) {
   const filestream = await getResponse(fields)
-  const filename = `graph_${format(new Date(), 'YYYY_MM_DD_HH_MM')}.xml`
+  const filename = `graph_${format(new Date(), 'yyyy_MM_dd_HH_MM')}.xml`
 
   await saveFiles([{ filestream, filename }], fields, {
     contentType: 'application/xml'
